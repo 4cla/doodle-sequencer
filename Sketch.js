@@ -303,7 +303,7 @@ function draw() {
     
     textAlign(CENTER, CENTER);
     textStyle(BOLD);
-    textSize(brushSize / 1.5);
+    textSize(brushSize / 1.3);
     text(
       `BPM: ${bpm}`,
       minusIconConstraints.x * 1.55,
@@ -315,7 +315,7 @@ function draw() {
       "take photo",
       canvas.width * 0.5,
       canvas.height * 0.48,
-      drawTileWidth / 4,
+      drawTileWidth / 2,
       drawTileHeight / 4
     );
     drawTile.display();
